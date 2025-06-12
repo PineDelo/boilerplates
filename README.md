@@ -29,9 +29,12 @@
 ### 1. `git sparse-checkout` (부분 clone, 빠름)
 
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/pinedelo/boilertemplate.git
+git clone --filter=blob:none --no-checkout https://github.com/PineDelo/boilerplates.git
+
 cd boilertemplate
+
 git sparse-checkout init --cone
+
 git sparse-checkout set vite-react-ts
 ```
 
@@ -48,7 +51,5 @@ git sparse-checkout set vite-react-ts
 ### 3. degit 사용 (폴더를 로컬에 복사)
 
 ```bash
-npx degit pinedelo/boilertemplate/vite-react-ts my-new-app
+npx degit PineDelo/boilerplates/vite-react-ts my-new-app
 ```
-
-✅ 전체 Git 히스토리 없이 복사본만 받아올 수 있어 가볍습니다.
