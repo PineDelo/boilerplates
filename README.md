@@ -5,7 +5,7 @@
 
 ---
 
-## 📦 Template List
+## 📦 템플릿 목록
 
 <table>
   <thead>

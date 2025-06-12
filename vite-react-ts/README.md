@@ -6,16 +6,6 @@
 
 이 프로젝트는 [pnpm](https://pnpm.io/)을 패키지 매니저로 사용합니다. pnpm은 디스크 공간을 효율적으로 사용하고, 설치 속도가 빠르며, 엄격한 의존성 관리를 제공합니다.
 
-### pnpm 설치
-
-```bash
-# npm을 사용하여 pnpm 설치
-npm install -g pnpm
-
-# 또는 curl을 사용하여 설치 (macOS/Linux)
-curl -fsSL https://get.pnpm.io/install.sh | sh -
-```
-
 ## 주요 기능
 
 - ⚡️ Vite를 사용한 빠른 개발 환경
@@ -26,6 +16,22 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 - 🛣️ React Router v6
 - 📝 ESLint 설정
 - 🔄 Hot Module Replacement (HMR)
+
+## 프로젝트 구조
+
+```
+├── src/
+│   ├── components/     # 재사용 가능한 컴포넌트
+│   ├── pages/          # 페이지 컴포넌트
+│   ├── routes.tsx      # 라우터 설정
+│   ├── App.tsx         # 메인 앱 컴포넌트
+│   └── main.tsx        # 앱 진입점
+├── public/             # 정적 파일
+├── .vscode/            # VS Code 설정
+├── .prettierrc         # Prettier 설정
+├── tsconfig.json       # TypeScript 설정
+└── vite.config.ts      # Vite 설정
+```
 
 ## 설치된 라이브러리
 
@@ -48,10 +54,19 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 ## 시작하기
 
-```bash
-# 저장소 클론
-git clone [repository-url]
+### pnpm 설치(이미 설치시 생략)
 
+```bash
+# npm을 사용하여 pnpm 설치
+npm install -g pnpm
+
+# 또는 curl을 사용하여 설치 (macOS/Linux)
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+
+### 실행
+
+```bash
 # 의존성 설치
 pnpm install
 
@@ -60,22 +75,6 @@ pnpm dev
 
 # 프로덕션 빌드
 pnpm build
-```
-
-## 프로젝트 구조
-
-```
-├── src/
-│   ├── components/     # 재사용 가능한 컴포넌트
-│   ├── pages/         # 페이지 컴포넌트
-│   ├── routes.tsx     # 라우터 설정
-│   ├── App.tsx        # 메인 앱 컴포넌트
-│   └── main.tsx       # 앱 진입점
-├── public/            # 정적 파일
-├── .vscode/          # VS Code 설정
-├── .prettierrc       # Prettier 설정
-├── tsconfig.json     # TypeScript 설정
-└── vite.config.ts    # Vite 설정
 ```
 
 ## 주요 설정
