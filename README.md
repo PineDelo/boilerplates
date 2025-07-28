@@ -18,6 +18,8 @@
     <tr>
       <td style="text-align: left; padding: 8px;"><code><a href="./vite-react-ts">vite-react-ts</a></code></td>
       <td style="text-align: left; padding: 8px;">Vite + React + TypeScript</td>
+    </tr>
+    <tr>
       <td style="text-align: left; padding: 8px;"><code><a href="./next-react-ts">next-react-ts</a></code></td>
       <td style="text-align: left; padding: 8px;">Next + React + TypeScript</td>
     </tr>
